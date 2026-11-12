@@ -1,6 +1,6 @@
 ---
 name: programmatic-seo
-description: When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions "programmatic SEO," "template pages," "pages at scale," "directory pages," "location pages," "[keyword] + [city] pages," "comparison pages," "integration pages," or "building many pages for SEO." For auditing existing SEO issues, see seo-audit.
+description: When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions "programmatic SEO," "template pages," "pages at scale," "directory pages," "location pages," "[keyword] + [city] pages," "comparison pages," "integration pages," or "building many pages for SEO." For auditing existing SEO issues, see the seo skill.
 ---
 
 # Programmatic SEO
@@ -620,7 +620,5 @@ If you need more context:
 
 ## Related Skills
 
-- **seo-audit**: For auditing programmatic pages after launch
+- **seo**: For auditing programmatic pages after launch
 - **schema-markup**: For adding structured data to templates
-- **copywriting**: For the non-templated copy portions
-- **analytics-tracking**: For measuring programmatic page performance

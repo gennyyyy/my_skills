@@ -1,6 +1,6 @@
 ---
 name: schema-markup
-description: When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions "schema markup," "structured data," "JSON-LD," "rich snippets," "schema.org," "FAQ schema," "product schema," "review schema," or "breadcrumb schema." For broader SEO issues, see seo-audit.
+description: When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions "schema markup," "structured data," "JSON-LD," "rich snippets," "schema.org," "FAQ schema," "product schema," "review schema," or "breadcrumb schema." For broader SEO issues, see the seo skill.
 ---
 
 # Schema Markup
@@ -591,6 +591,5 @@ If you need more context:
 
 ## Related Skills
 
-- **seo-audit**: For overall SEO including schema review
+- **seo**: For overall SEO including schema review
 - **programmatic-seo**: For templated schema at scale
-- **analytics-tracking**: For measuring rich result impact

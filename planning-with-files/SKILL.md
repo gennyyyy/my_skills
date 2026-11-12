@@ -11,7 +11,7 @@ Work like Manus: Use persistent markdown files as your "working memory on disk."
 
 Before ANY complex task:
 
-1. **Create `task_plan.md`** in the working directory
+1. **Create `docs/plan/plan.md`** at the project root (create the `docs/plan/` folder if needed)
 2. **Define phases** with checkboxes
 3. **Update after each phase** - mark [x] and change status
 4. **Read before deciding** - refresh goals in attention window
@@ -22,16 +22,16 @@ For every non-trivial task, create THREE files:
 
 | File | Purpose | When to Update |
 |------|---------|----------------|
-| `task_plan.md` | Track phases and progress | After each phase |
+| `docs/plan/plan.md` | Track phases and progress | After each phase |
 | `notes.md` | Store findings and research | During research |
 | `[deliverable].md` | Final output | At completion |
 
 ## Core Workflow
 
 ```
-Loop 1: Create task_plan.md with goal and phases
-Loop 2: Research → save to notes.md → update task_plan.md
-Loop 3: Read notes.md → create deliverable → update task_plan.md
+Loop 1: Create docs/plan/plan.md with goal and phases
+Loop 2: Research → save to notes.md → update docs/plan/plan.md
+Loop 3: Read notes.md → create deliverable → update docs/plan/plan.md
 Loop 4: Deliver final output
 ```
 
@@ -39,12 +39,12 @@ Loop 4: Deliver final output
 
 **Before each major action:**
 ```bash
-Read task_plan.md  # Refresh goals in attention window
+Read docs/plan/plan.md  # Refresh goals in attention window
 ```
 
 **After each phase:**
 ```bash
-Edit task_plan.md  # Mark [x], update status
+Edit docs/plan/plan.md  # Mark [x], update status
 ```
 
 **When storing information:**
@@ -52,7 +52,7 @@ Edit task_plan.md  # Mark [x], update status
 Write notes.md     # Don't stuff context, store in file
 ```
 
-## task_plan.md Template
+## docs/plan/plan.md Template
 
 Create this file FIRST for any complex task:
 
@@ -107,7 +107,7 @@ For research and findings:
 ## Critical Rules
 
 ### 1. ALWAYS Create Plan First
-Never start a complex task without `task_plan.md`. This is non-negotiable.
+Never start a complex task without `docs/plan/plan.md`. This is non-negotiable.
 
 ### 2. Read Before Decide
 Before any major decision, read the plan file. This keeps goals in your attention window.
@@ -123,6 +123,9 @@ Large outputs go to files, not context. Keep only paths in working memory.
 
 ### 5. Log All Errors
 Every error goes in the "Errors Encountered" section. This builds knowledge for future tasks.
+
+### 6. Archive When Done
+Move `docs/plan/plan.md` to `docs/plan/done/` (create the folder if needed) only once the work is implemented, tested, and verified — tests actually run, output seen. Until all three are true, the plan stays in `docs/plan/`. Never overwrite an archived plan; ask or use a dated filename.
 
 ## When to Use This Pattern
 
@@ -142,7 +145,7 @@ Every error goes in the "Errors Encountered" section. This builds knowledge for 
 
 | Don't | Do Instead |
 |-------|------------|
-| Use TodoWrite for persistence | Create `task_plan.md` file |
+| Use TodoWrite for persistence | Create `docs/plan/plan.md` file |
 | State goals once and forget | Re-read plan before each decision |
 | Hide errors and retry | Log errors to plan file |
 | Stuff everything in context | Store large content in files |

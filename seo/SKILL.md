@@ -799,8 +799,6 @@ If you need more context:
 
 - **programmatic-seo**: For building SEO pages at scale
 - **schema-markup**: For implementing structured data
-- **page-cro**: For optimizing pages for conversion (not just ranking)
-- **analytics-tracking**: For measuring SEO performance
 
 
 # Merged section: seo-fundamentals (from business-marketing/seo-fundamentals)
